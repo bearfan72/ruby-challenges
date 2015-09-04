@@ -1,0 +1,40 @@
+puts"Give me a number"
+number_1=gets.to_i
+number_1=number
+number_2=number_1+5
+number_3=number_2*2
+number_4=number_3-4
+number_5=number_4/2
+final_number=number_5-3
+puts last_number
+
+puts"Give me a number"
+number=gets.to_i
+last_number=number
+last_number+=5
+last_number*=2
+last_number-=4
+last_number/=2
+last_number-=number
+puts"#{last_number}!"
+
+puts "Give me a number"
+number=gets.to_i
+puts "Always" +(((((number+5)*2)-4)/2)-number).to_s +"!"
+
+def my_method
+number=gets.to_i
+puts"" +(((((number+5)*2)-4)/2)-number).to_s+"!"
+end
+my_method
+
+REFACTORING YOUR SCRIPT SO IT ACCEPTS ARGUMENTS
+
+puts"please enter a number"
+users number=gets.to_i
+
+def my_method(number)
+num=(((((number+5)*2)-4)/2)-number)
+end
+
+puts "The number is "always_three(users_number).to_s +"always"

@@ -1,0 +1,6 @@
+case(weather)
+when "sunny" then puts "need to put on sunscreen"
+when "rainy" then puts " need an umbrella."
+when "cloudy" then puts" need to keep an eye on the clouds."
+when "foggy" then puts"need to turn on the lights."
+end

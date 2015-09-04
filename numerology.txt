@@ -1,0 +1,56 @@
+puts "what is your birthdate?"
+birthdate=gets
+number=birthdate[0].to_i + number=birthdate[1].to_i + number=birthdate[2].to_i + number=birthdate[3].to_i + number=birthdate[4].to_i + number=birthdate[5].to_i + number=birthdate[6].to_i + number=birthdate[7].to_i
+number=number.to_s
+number=number[0].to_i + number[1].to_i
+puts "number"
+if(number>9)
+number=number.to_s
+number=number[0].to_i + number[1].to_i
+end
+
+
+def get_birth_path_number(birthdate)
+
+number=birthdate[0].to_i + number=birthdate[1].to_i + number=birthdate[2].to_i + number=birthdate[3].to_i + number=birthdate[4].to_i + number=birthdate[5].to_i + number=birthdate[6].to_i + number=birthdate[7].to_i
+
+number=number.to_s
+number=number[0].to_i + number[1].to_i
+
+if number>9
+number=number[0].to_i + number[1].to_i
+end
+return number
+end
+def get_numerology_message(birth_path_number)
+
+case(birth_path_number)
+when 1
+message="Your numerology number is#{birth_path_number}.One is the leader."
+when 2
+message="Your numerology number is #{birth_path_number}. Two is the mediator and peace-lover."
+when 3
+message=Your numerology number is #{birth_path_number}. Three is a sociable, friendly, and outgoing vibration."
+when 4
+message=Your numerology number is #{birth_path_number}. Four is the worker."
+when 5
+message=Your numerology number is #{birth_path_number}. Five is the freedom lover."
+when 6
+message=Your numerology number is #{birth_path_number}. Six is the peace lover."
+when 7
+message=Your numerology number is #{birth_place_number}. Seven is the deep thinker."
+when 8
+message=Your numerology number is #{birth_place_number}. Eight is the manager."
+when 9
+message=Your numerology number is #{bitth_place_number}. Nine is the teacher."
+else
+message "We don't have a description for that number."
+end
+end
+puts"What is your birthdate. Use MMDDYYYY"
+birthdate=gets
+
+birth_path_number=get_birth_path_number(birthdate)
+numerology_message=get_numerology_message(birth_path_number)
+puts numerology_message
+

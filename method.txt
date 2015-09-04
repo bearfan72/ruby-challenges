@@ -1,0 +1,23 @@
+def my_first_method
+puts "This is my first method!"
+end
+my_first_method
+
+def my_method
+number= 2+2
+puts number
+end
+my_method
+
+def my_method(num1,num2)
+number=num1 + num2
+puts number
+end
+my_method(2,2)
+
+def my_method(num1,num2)
+number=num1 + num2
+puts number
+end
+my_method(6,3)
+my_method(123,200)

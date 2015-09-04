@@ -1,0 +1,6 @@
+puts "Are you in love with me? Please answer Y/N:"
+answer=gets.chomp.downcase
+while(answer=="Y")
+puts "Are you in love with me? Please answer Y/N:"
+answer=gets.chomp.downcase
+end
