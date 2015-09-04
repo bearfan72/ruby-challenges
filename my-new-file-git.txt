@@ -1,0 +1,11 @@
+entry_01={"name"=>"Fred","email" =>"fred@gmail.com"}
+entry_02={"name"=>"Steve","email" =>"steve@gmail.com"}
+entry_03={"name"=>"Joe","email" =>"joe@gmail.com"}
+
+entry_01={:name=>"Fred",:email =>"fred@gmail.com"}
+entry_02={:name=>"Steve",:email =>"steve@gmail.com"}
+entry_03={:name=>"Joe",:email =>"joe@jmail.com"}
+
+entry_01={name:"Fred",email:"fred@gmail.com"}
+entry_02={name:"Steve",email:"steve@gmail.com"}
+entry_03={name:"Joe",email:"joe@gmail.com"}
