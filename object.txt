@@ -1,0 +1,23 @@
+class Frog
+def set_name=(frog_name)
+@name=frog_name
+end
+def get_name
+return @name
+end
+def set_owner=(owner_name)
+@owner_name=owner_name
+end
+def get_owner
+return @owner_name
+end
+def jumps
+return "yuck"
+end
+end
+
+my_frog=Frog.new
+my_frog.set_name="Greeny"
+frog_name=my_frog.get_name
+puts"#{frog_name} says #{my_frog.jumps}"
+end

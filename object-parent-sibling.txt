@@ -1,0 +1,83 @@
+
+class Animal
+
+def set_name=(animal_name)
+@name=animal_name
+end
+def get_name
+return @name
+end
+def set_owner= (owner_name)
+@owner_name=owner_name
+end
+def get_name
+return @owner_name
+end
+end
+
+class Frog<Animal
+def set_name=(frog_name)
+@name=frog_name
+end
+def get_name
+return @name
+end
+def set_owner=(owner_name)
+@owner_name=owner_name
+end
+def get_owner
+return @owner_name
+end
+def jumps
+return "yuck"
+end
+end
+class Dog <Animal
+def set_name=(dog_name)
+@name=dog_name
+end
+def get_name
+return @name
+end
+def set_owner=(owner_name)
+@owner_name=owner_name
+end
+def get_owner
+return @owner_name
+end
+def barks
+return "loud"
+end
+end
+class Cat <Animal
+def set_name=(cat_name)
+@name=cat_name
+end
+def get_name
+return @name
+end
+def set_owner=(owner_name)
+@owner_name=owner_name
+end
+def snores
+return "loud"
+end
+end
+
+my_frog=Frog.new
+my_frog.set_name="Greeny"
+frog_name=my_frog.get_name
+my_dog=Dog.new
+my_dog.set_name="Missy"
+dog_name=my_dog.get_name
+my_cat=Cat.new
+my_cat.set_name="Cleo"
+cat_name=my_cat.get_name
+
+puts"#{frog_name} says #{my_frog.jumps}"
+puts"#{dog_name} says #{my_dog.barks}"
+puts "#{cat_name} says #{my_cat.snores}"
+
+my_frog.inspect
+my_dog.inspect
+my_cat.inspect
